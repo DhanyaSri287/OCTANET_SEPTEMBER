@@ -1,0 +1,119 @@
+.main{
+    display:flex;
+    background: var(--secondaryBackground);
+    width: 410px;
+    height: 160px;
+    justify-content: center;
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+#form{
+   margin-left: 480px;
+   margin-top: 10px;
+}
+input{
+    width:350px;
+    height:30px;
+    border:2px solid white;
+    border-radius: 50px;
+}
+button{
+    background: goldenrod;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    width:50px;
+    padding:5px;
+    color:white;
+    font-size: x-large;
+}
+body{
+    background: var(--background);
+    margin: 0;
+    padding:0;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top:100px;
+}
+#number{
+   height: 5px;
+   width:2px;
+   margin-left: 100px;
+   margin-top: 30px;
+   font-size:xx-large;
+   font-weight: bold;
+   
+}
+#progressbar{
+    height:5px;
+    width:150%;
+    background: var(--teal);
+    border: 2px solid rgb(79, 129, 136);
+    border-radius: 50px;
+    
+}
+:root{
+    --background:#000430;
+    --secondaryBackground:#171c48;
+    --text:#fff;
+    --purple:#828dff;
+    --teal:#24feee;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    margin-top: 10px;
+}
+ul li {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(69, 70, 110);
+    margin-left: 490px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    width:390px;
+    height:22px;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 200px;
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    cursor: pointer; 
+}
+ul li button {
+    
+    background: goldenrod;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    width:50px;
+    padding:5px;
+    color:white;
+    font-size: x-large;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+ul li label {
+    flex-grow: 1;
+     max-width:70%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+    white-space: nowrap;
+    
+   
+
+}
